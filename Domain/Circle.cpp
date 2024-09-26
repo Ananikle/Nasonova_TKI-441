@@ -24,7 +24,7 @@ circle::Circle::Circle(const double radius)
 {
 	if (radius <= 0)
 	{
-		throw std::invalid_argument("Ðàäèóñ äîëæåí áûòü çàäàí ïîëîæèòåëüíûì ÷èñëîì.");
+		throw std::invalid_argument("Ð Ð°Ð´Ð¸ÑƒÑ Ð´Ð¾Ð»Ð¶ÐµÐ½ Ð±Ñ‹Ñ‚ÑŒ Ð·Ð°Ð´Ð°Ð½ Ð¿Ð¾Ð»Ð¾Ð¶Ð¸Ñ‚ÐµÐ»ÑŒÐ½Ñ‹Ð¼ Ñ‡Ð¸ÑÐ»Ð¾Ð¼.");
 	}
 
 	Circle::radius = radius;
