@@ -9,9 +9,9 @@ int main()
 
 	double radius;
 
-	std::cout << "Ââåäèòå ğàäèóñ êğóãà: ";
+	std::cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ñ€Ğ°Ğ´Ğ¸ÑƒÑ ĞºÑ€ÑƒĞ³Ğ°: ";
 	std::cin >> radius;
-	std::cout << "Ââåäåííûé ğàäèóñ: " << radius << "\n";
+	std::cout << "Ğ’Ğ²ĞµĞ´ĞµĞ½Ğ½Ñ‹Ğ¹ Ñ€Ğ°Ğ´Ğ¸ÑƒÑ: " << radius << "\n";
 
 	return 0;
 }
