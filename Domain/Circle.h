@@ -40,7 +40,7 @@ namespace circle
 
 		/*
 		* @brief Инициализирует новый объект класса Circle
-		* @param radius радиус
+		* @param radius Радиус
 		*/
 		Circle(const double radius);
 	};
