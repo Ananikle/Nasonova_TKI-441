@@ -35,3 +35,12 @@ circle::Circle::Circle(const double radius)
 	Circle::radius = radius;
 }
 
+std::ostream& circle::operator<<(std::ostream& output, const Circle& object)
+{
+	output << "Радиус окружности: " << object.GetRadius() << "\n";
+	output << "Диаметр окружности: " << object.GetDiameter() << "\n";
+	output << "Длина окружности: " << object.GetLength() << "\n";
+	output << "Площадь окружности: " << object.GetArea() << "\n";
+
+	return output;
+}
