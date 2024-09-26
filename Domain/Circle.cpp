@@ -8,6 +8,11 @@ double circle::Circle::GetRadius() const
 	return radius;
 }
 
+double circle::Circle::GetDiameter() const
+{
+	return 2 * radius;
+}
+
 double circle::Circle::GetLength() const
 {
 	const double PI = 3.1415926535;

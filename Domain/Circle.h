@@ -19,6 +19,11 @@ namespace circle
 		*/
 		double GetRadius() const;
 		/*
+		* @brief Вернуть диаметр
+		* @return Диаметр
+		*/
+		double GetDiameter() const;
+		/*
 		* @brief Рассчитать длину окружности
 		* @return Длина окружности
 		*/
