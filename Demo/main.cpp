@@ -3,15 +3,27 @@
 
 #include "../Domain/Circle.h"
 
-int main() 
+int main()
 {
 	setlocale(LC_CTYPE, "RUS");
 
-	double radius;
+	using namespace circle;
 
-	std::cout << "Введите радиус круга: ";
-	std::cin >> radius;
-	std::cout << "Введенный радиус: " << radius << "\n";
+	try
+	{
+		double radius;
 
-	return 0;
+		std::cout << "Введите радиус круга: ";
+		std::cin >> radius;
+		
+		Circle first(radius);
+
+		return 0;
+	}
+	catch (const std::exception& error)
+	{
+		std::cout << "ОШИБКА: " << error.what() << "\n";
+	}
+
+	return -1;
 }
