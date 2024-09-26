@@ -1,34 +1,34 @@
 #pragma once
 
 /**
-* @brief Класс Круг
+* @brief РљР»Р°СЃСЃ РљСЂСѓРі
 */
 class Circle
 {
 private:
 	/**
-	* @brief Радиус
+	* @brief Р Р°РґРёСѓСЃ
 	*/
 	double radius;
 public:
 	/*
-	* @brief Вернуть радиус
-	* @return Радиус
+	* @brief Р’РµСЂРЅСѓС‚СЊ СЂР°РґРёСѓСЃ
+	* @return Р Р°РґРёСѓСЃ
 	*/
 	double GetRadius() const;
 	/*
-	* @brief Рассчитать длину окружности
-	* @return Длина окружности
+	* @brief Р Р°СЃСЃС‡РёС‚Р°С‚СЊ РґР»РёРЅСѓ РѕРєСЂСѓР¶РЅРѕСЃС‚Рё
+	* @return Р”Р»РёРЅР° РѕРєСЂСѓР¶РЅРѕСЃС‚Рё
 	*/
 	double GetLength() const;
 	/*
-	* @brief Рассчитать площадь окружности
-	* @return Площадь
+	* @brief Р Р°СЃСЃС‡РёС‚Р°С‚СЊ РїР»РѕС‰Р°РґСЊ РѕРєСЂСѓР¶РЅРѕСЃС‚Рё
+	* @return РџР»РѕС‰Р°РґСЊ
 	*/
 	double GetArea() const;
 	/*
-	* @brief Инициализирует новый объект класса Circle
-	* @param radius радиус
+	* @brief РРЅРёС†РёР°Р»РёР·РёСЂСѓРµС‚ РЅРѕРІС‹Р№ РѕР±СЉРµРєС‚ РєР»Р°СЃСЃР° Circle
+	* @param radius СЂР°РґРёСѓСЃ
 	*/
 	Circle(const double radius);
 };
