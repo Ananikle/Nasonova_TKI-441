@@ -1,12 +1,10 @@
 #include <iostream>
-#include <clocale>
 
 #include "../Domain/Circle.h"
+#include "../Domain/Circle.cpp"
 
 int main()
 {
-	setlocale(LC_CTYPE, "RUS");
-
 	using namespace circle;
 
 	try
@@ -15,8 +13,16 @@ int main()
 
 		std::cout << "Введите радиус круга: ";
 		std::cin >> radius;
-		
-		Circle first(radius);
+
+		circle::Circle first(radius);
+
+		std::cout << "Введенный радиус: " << first.GetRadius() << "\n";
+		std::cout << "Диаметр окружности: " << first.GetDiameter() << "\n";
+		std::cout << "Длина окружности: " << first.GetLength() << "\n";
+		std::cout << "Площадь окружности: " << first.GetArea() << "\n";
+
+		std::cout << "\n Демонстрация перегрузки оператора вывода в поток:\n";
+		std::cout << first << "\n";
 
 		return 0;
 	}
