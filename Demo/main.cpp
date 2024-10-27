@@ -1,10 +1,13 @@
-#include <iostream>
+﻿#include <iostream>
+#include <clocale>
 
 #include "../Domain/Circle.h"
 #include "../Domain/Circle.cpp"
 
 int main()
 {
+	setlocale(LC_ALL, "RUS");
+
 	using namespace circle;
 
 	try

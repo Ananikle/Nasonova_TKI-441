@@ -1,4 +1,4 @@
-#pragma once
+﻿#pragma once
 #include <iostream>
 
 namespace circle
@@ -42,7 +42,7 @@ namespace circle
 		* @brief Инициализирует новый объект класса Circle
 		* @param radius Радиус
 		*/
-		explicit Circle(const double radius);
+		Circle(const double radius);
 	};
 
 	/*
