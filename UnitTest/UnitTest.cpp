@@ -1,4 +1,4 @@
-#include "pch.h"
+п»ї#include "pch.h"
 #include "CppUnitTest.h"
 
 #include "../Domain/Circle.h"
@@ -80,10 +80,10 @@ namespace UnitTest
 			const double R = 2.8;
 			circle::Circle obj{ R };
 			const std::string expected =
-				"Радиус окружности: " + std::to_string(obj.GetRadius()) + "\n" +
-				"Диаметр окружности: " + std::to_string(obj.GetDiameter()) + "\n" +
-				"Длина окружности: " + std::to_string(obj.GetLength()) + "\n" +
-				"Площадь окружности: " + std::to_string(obj.GetArea()) + "\n";
+				"Р Р°РґРёСѓСЃ РѕРєСЂСѓР¶РЅРѕСЃС‚Рё: " + std::to_string(obj.GetRadius()) + "\n" +
+				"Р”РёР°РјРµС‚СЂ РѕРєСЂСѓР¶РЅРѕСЃС‚Рё: " + std::to_string(obj.GetDiameter()) + "\n" +
+				"Р”Р»РёРЅР° РѕРєСЂСѓР¶РЅРѕСЃС‚Рё: " + std::to_string(obj.GetLength()) + "\n" +
+				"РџР»РѕС‰Р°РґСЊ РѕРєСЂСѓР¶РЅРѕСЃС‚Рё: " + std::to_string(obj.GetArea()) + "\n";
 			std::stringstream buffer{};
 
 			// Act
