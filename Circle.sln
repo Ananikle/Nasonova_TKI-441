@@ -4,10 +4,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Demo", "Demo\Demo.vcxproj", "{0BA6009D-B6BF-4E70-A768-E6FDDDAB9FFF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8AAFD780-4317-4371-8CB7-88D01E931E56} = {8AAFD780-4317-4371-8CB7-88D01E931E56}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Domain", "Domain\Domain.vcxproj", "{8AAFD780-4317-4371-8CB7-88D01E931E56}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UnitTest", "UnitTest\UnitTest.vcxproj", "{3D06AF9C-F88C-4C50-B8AA-C75E64AC8E27}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8AAFD780-4317-4371-8CB7-88D01E931E56} = {8AAFD780-4317-4371-8CB7-88D01E931E56}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
